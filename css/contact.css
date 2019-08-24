@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+ 
+body{
+    background-color: black;
+  }
+  
+  li{
+      list-style-type: none;
+      margin:2vw 0;
+      font-size: 3vh;
+  }
+  
+  a{
+      text-decoration: none;
+      color: antiquewhite;
+      padding: 2vw;
+      font-family:  monospace;
+  }
+  a:hover{
+      background-color: dimgray;
+  }
+  nav{
+      width: 100vw;
+      background-color: black;
+  }
+  
+  ul{
+      display: block;
+      margin: 0;
+      padding: 0;
+      display: flex;
+  }
+  body{
+      margin: 0;
+  }
+  
+  @media only-screen and (max-width:500px){
+      /*Show elements in a column*/
+      ul{
+          flex-direction: column;
+      }
+      /*Deletes margin on top or bottom of the a tag*/
+      li{
+          margin:0;
+      }
+      a{
+          display:block;
+      }
+  }
+  
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+}
+ 
+.wrapper {
+  max-width: 700px;
+  margin: 50px auto;
+  align-self: auto;
+  background: #85b8e7;
+  box-sizing: border-box;
+  padding: 40px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+ 
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+ 
+.address {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 50px;
+}
+ 
+.inner-address p {
+  font-size: 18px;
+}
+ 
+.inner-address .fab {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.inner-address .fas {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+   
+ 
+
+ 
+.social {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+}
+ 
+.inner-social .fab {
+  margin: 0 20px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+ 
+.fab:hover{
+  color: #fff;
+}
+.fas:hover{
+    color: #fff;
+  }
+ 
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #a9aacd;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #a9aacd;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #a9aacd;
+}
+ 
+
+}
+ 
+@media screen and (max-width: 580px) {
+  .address {
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .inner-address {
+    margin-bottom: 20px;
+  }
+ 
+  .social {
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .inner-social {
+    margin-bottom: 20px;
+  }
+}
