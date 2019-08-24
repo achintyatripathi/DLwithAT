@@ -65,7 +65,7 @@ body{
     color: aliceblue;
     font-size: 30px;
     padding: 8px 12px;
-    position: absolute;
+    position: auto;
     bottom: 50%;
     width: 100%;
     text-align: center;
